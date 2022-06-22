@@ -74,4 +74,25 @@ def palindrome_check(string):
         print("No Palindromes here")
 
 
-    
+one_to_onehundred = list(range(3, 101))
+
+
+def prime_nums(range):
+    prime_num_list = []
+    for num in range:
+        if num % 2 == 0:
+            pass
+
+        elif num % 3 == 0 and num > 3:
+            pass
+        elif num % 5 == 0 and num > 5:
+            pass
+        elif num % 7 == 0 and num > 7:
+            pass
+        elif num % 11 == 0 and num > 11:
+            pass
+        else:
+            prime_num_list.append(num)
+    print(prime_num_list)
+
+prime_nums(one_to_onehundred)
