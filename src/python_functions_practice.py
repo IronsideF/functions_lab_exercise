@@ -64,3 +64,14 @@ def reverse_string(string):
 
 def fahrenheit_to_celcius(temp_f):
     return (temp_f - 32) * 5/9
+
+def palindrome_check(string):
+    string_reversed = reverse_string(string)
+    # self.assertEqual(string_reversed, string)
+    if string_reversed == string:
+        print("That's a Palindrome")
+    else:
+        print("No Palindromes here")
+
+
+    

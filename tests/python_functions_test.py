@@ -96,6 +96,14 @@ class TestPythonFunctionPractice(unittest.TestCase):
     temp_c = fahrenheit_to_celcius(50)
     self.assertEqual(10, temp_c)
 
+def palindrome_check_test(string):
+    string_reversed = reverse_string(string)
+    if string_reversed == string:
+        print("That's a Palindrome")
+    else:
+        print("No Palindromes here")
+        
+palindrome_check_test("racecar")
 
 if __name__ == '__main__':
     unittest.main()
