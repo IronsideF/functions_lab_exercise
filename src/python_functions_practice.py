@@ -67,12 +67,12 @@ def fahrenheit_to_celcius(temp_f):
 
 def palindrome_check(string):
     string_reversed = reverse_string(string)
-    # self.assertEqual(string_reversed, string)
     if string_reversed == string:
         print("That's a Palindrome")
     else:
         print("No Palindromes here")
 
+palindrome_check("racecar")
 
 one_to_onehundred = list(range(3, 101))
 
