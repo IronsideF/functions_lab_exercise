@@ -58,3 +58,6 @@ def number_to_short_month_name(month_num):
 
 def volume_of_cube(edge_length):
     return edge_length * edge_length * edge_length
+
+def reverse_string(string):
+    return string[::-1]
