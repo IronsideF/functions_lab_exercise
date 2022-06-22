@@ -55,3 +55,6 @@ def number_to_short_month_name(month_num):
         12: "Dec"
     }
     return month_lookup[month_num]
+
+def volume_of_cube(edge_length):
+    return edge_length * edge_length * edge_length
