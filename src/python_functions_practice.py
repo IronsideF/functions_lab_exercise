@@ -82,7 +82,6 @@ def prime_nums(range):
     for num in range:
         if num % 2 == 0:
             pass
-
         elif num % 3 == 0 and num > 3:
             pass
         elif num % 5 == 0 and num > 5:
