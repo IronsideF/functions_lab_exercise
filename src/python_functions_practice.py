@@ -38,3 +38,20 @@ def number_to_full_month_name(month_num):
         12: "December"
     }
     return month_lookup[month_num]
+
+def number_to_short_month_name(month_num):
+    month_lookup = {
+        1: "Jan",
+        2: "Feb",
+        3: "Mar",
+        4: "Apr",
+        5: "May",
+        6: "Jun",
+        7: "Jul",
+        8: "Aug",
+        9: "Sep",
+        10: "Oct",
+        11: "Nov",
+        12: "Dec"
+    }
+    return month_lookup[month_num]
